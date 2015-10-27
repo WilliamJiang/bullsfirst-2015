@@ -1,0 +1,82 @@
+$fz: 14px;
+$ff: "Helvetica Neue", "Arial", "sans-serif";
+
+body {
+  font-size: $fz;
+  font-family: $ff;
+
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+button {
+  width: 100px;
+  background: orange;
+  border: 1px solid darkred;
+  margin-right: 10px;
+
+  box-shadow: 1px 1px 3px #333;
+}
+
+@import "table";
+
+img {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+}
+
+/* Header */
+@import "header";
+
+#content {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Left Section */
+
+.left-section {
+  flex: 1;
+  margin-right: 20px;
+
+  .header {
+    display: flex;
+    height: 30px;
+  }
+
+  .header button {
+    height: 25px;
+  }
+  .header > .actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.legend {
+  width: 30px;
+  height: 16px;
+}
+
+/* Right Section */
+.right-section {
+  width: 300px;
+  background: #ccc;
+
+  .chart {
+    height: 300px;
+  }
+
+  .help-label {
+    padding: 10px;
+  }
+}
+
+.author {
+  float: right;
+  margin-right: 20px;
+  font-weight: bolder;
+  color: blue;
+}

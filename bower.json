@@ -1,0 +1,16 @@
+{
+  "name": "bullsfirst-2015",
+  "version": "1.0.0",
+  "authors": [
+    "William.Jiang <williamjxj@hotmail.com>"
+  ],
+  "private": true,
+  "description": "Morgan Stanley Interview: the BullsFirst Exercise bug fixs.",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "lodash": "~3.10.1",
+    "moment": "~2.10.6"
+  }
+}

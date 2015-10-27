@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+
+  th {
+    background: #ccc;
+    padding: 5px;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  tr.totals td {
+    border-top: 3px solid #ccc;
+  }
+}

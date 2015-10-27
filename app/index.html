@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bullsfirst">
+<head>
+    <meta charset="UTF-8">
+    <title>Bullsfirst</title>
+    <link rel="stylesheet" href="styles/css/app.css">
+</head>
+<body>
+
+<!-- Header -->
+<ng-include src="'views/header.html'"></ng-include>
+
+<div ng-view class="container"></div>
+
+<ng-include src="'views/footer.html'"></ng-include>
+
+<!-- Libs -->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/lodash/lodash.min.js"></script>
+<script src="bower_components/moment/moment.js"></script>
+
+<!-- Application -->
+<script src="scripts/accounts.directive.js"></script>
+<script src="scripts/accounts.service.js"></script>
+<script src="scripts/accounts.ctrl.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
